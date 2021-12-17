@@ -1,0 +1,29 @@
+.header__link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 28px;
+  margin-right: 18px;
+  margin-bottom: 6px;
+  opacity: 1;
+  transition: opacity .2s ease;
+}
+
+.header__link:last-child {
+ margin-right: 0;
+}
+
+.header__link:hover {
+  opacity: .7;
+}
+
+.header__link_active {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 767px) {
+  .header__link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
