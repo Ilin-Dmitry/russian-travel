@@ -1,0 +1,32 @@
+.place {
+
+  display: grid;
+  grid-template-columns: calc(51% - 40px) minmax(49%, 484px);
+  gap: 48px 40px;
+  grid-template-areas:
+  "title link"
+  "image text";
+  padding-top: 80px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1279px) {
+  .place {
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place {
+    gap: 48px 28px;
+    padding-top: 73px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place {
+    display: block;
+    padding-top: 50px;
+    position: relative;
+  }
+}
