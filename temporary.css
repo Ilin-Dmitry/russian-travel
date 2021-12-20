@@ -1,6 +1,6 @@
-* {
+/* * {
   outline: 1px solid red;
-}
+} */
 
 .places {
   box-sizing: border-box;
@@ -27,12 +27,13 @@
 .place {
 
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: calc(51% - 40px) minmax(49%, 484px);
   gap: 48px 40px;
   grid-template-areas:
   "title link"
   "image text";
   padding-top: 80px;
+  width: 100%;
 }
 
 @media screen and (max-width: 1279px) {
@@ -52,6 +53,7 @@
   .place {
     display: block;
     padding-top: 50px;
+    position: relative;
   }
 }
 
@@ -117,7 +119,11 @@
     margin-bottom: 32px;
   }
   .place__image {
+    display: block;
     margin-bottom: 32px;
+    position: relative;
+    width: 100vw;
+    left: -16px;
   }
 
 }
