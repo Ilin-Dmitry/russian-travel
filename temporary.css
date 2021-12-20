@@ -1,3 +1,35 @@
 /* * {
   outline: 1px solid red;
 } */
+
+.cover {
+  width: calc(100% - 96px);
+
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.cover__link {
+  display: flex;
+  max-width: 1184px;
+  min-height: 740px;
+  background: url('images/cover__background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  color: #fff;
+  text-decoration: none;
+}
+
+.cover__title {
+  font-size: 72px;
+  line-height: 1.1;
+  font-weight: 900;
+}
+
+.cover__subtitle {
+  font-size: 18px;
+  line-height: 1.2;
+}
