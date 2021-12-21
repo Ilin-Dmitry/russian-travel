@@ -12,13 +12,14 @@
 
 @media screen and (max-width: 1279px) {
   .place {
-    grid-template-columns: calc(52% - 40px) minmax(49%, 484px);
+    grid-template-columns: calc(52% - 40px) minmax(48%, 484px);
     gap: 48px 32px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .place {
+    grid-template-columns: calc(51.2% - 40px) minmax(48.8%, 352px);
     gap: 48px 28px;
     padding-top: 73px;
   }
