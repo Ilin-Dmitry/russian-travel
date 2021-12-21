@@ -21,7 +21,7 @@
   .place {
     grid-template-columns: calc(51.2% - 40px) minmax(48.8%, 352px);
     gap: 48px 28px;
-    padding-top: 73px;
+    padding-top: 72px;
   }
 }
 
