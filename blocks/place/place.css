@@ -12,6 +12,7 @@
 
 @media screen and (max-width: 1279px) {
   .place {
+    grid-template-columns: calc(52% - 40px) minmax(49%, 484px);
     gap: 48px 32px;
   }
 }

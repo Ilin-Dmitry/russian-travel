@@ -1,9 +1,14 @@
 .lead__title {
-  margin: 0;
   font-size: 96px;
   line-height: 1.05;
   font-weight: 900;
   margin: 56px 0 32px;
+}
+
+@media screen and (max-width: 1279px) {
+  .lead__title {
+    margin: 48px 0 32px;
+  }
 }
 
 @media screen and (max-width: 767px) {
