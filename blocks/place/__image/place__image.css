@@ -5,10 +5,6 @@
   .place__image {
     display: block;
     margin-bottom: 32px;
-    position: relative;
-    width: 100vw;
-    left: -16px;
-    /* width: calc(100vw - 16px);
-    left: -17px; */
+    width: 100%;
   }
 }
