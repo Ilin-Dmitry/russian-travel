@@ -8,7 +8,7 @@
   /* min-height: 740px; */
   min-height: 57vw;
   margin: 0 auto;
-  background: url('cover__background.jpg');
+  background: url('../../../images/cover__background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -31,7 +31,7 @@
 }
 
 .cover__link:hover::before {
-  opacity: .7;
+  opacity: .8;
 }
 
 @media screen and (max-width: 1279px) {

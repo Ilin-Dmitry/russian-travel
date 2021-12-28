@@ -17,9 +17,7 @@
   opacity: .8;
 }
 
-.header__link_active {
-  text-decoration: underline;
-}
+
 
 @media screen and (max-width: 767px) {
   .header__link {

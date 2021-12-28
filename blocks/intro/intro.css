@@ -24,8 +24,8 @@
 
 @media screen and (max-width: 767px) {
   .intro {
-  padding-left: 5%;
-  padding-right: 5%;
-  padding: 64px 5% 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding: 64px 5% 0;
   }
 }
