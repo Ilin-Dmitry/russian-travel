@@ -5,8 +5,8 @@
   align-items: center;
   position: relative;
   max-width: 1184px;
-  /* min-height: 740px; */
-  min-height: 57vw;
+  height: 57vw;
+  max-height: 740px;
   margin: 0 auto;
   background: url('../../../images/cover__background.jpg');
   background-size: cover;
@@ -42,6 +42,6 @@
 
 @media screen and (max-width: 767px) {
   .cover__link {
-    min-height: 59vw;
+    min-height: 63vw;
   }
 }
