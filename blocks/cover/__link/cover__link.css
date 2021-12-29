@@ -5,8 +5,9 @@
   align-items: center;
   position: relative;
   max-width: 1184px;
-  height: 57vw;
-  max-height: 740px;
+  /* height: 57vw;
+  max-height: 740px; */
+  min-height: 740px;
   margin: 0 auto;
   background: url('../../../images/cover__background.jpg');
   background-size: cover;
